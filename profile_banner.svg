@@ -1,0 +1,68 @@
+<svg width="800" height="250" viewBox="0 0 800 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 44px;
+      fill: #ffffff;
+      letter-spacing: 3px;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      fill: #22d3ee;
+      letter-spacing: 2px;
+    }
+    .tags {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 13px;
+      fill: #64748b;
+      letter-spacing: 4px;
+    }
+    .bg {
+      fill: url(#bg-grad);
+    }
+    .glow-cyan {
+      mix-blend-mode: screen;
+      opacity: 0.25;
+    }
+    .glow-purple {
+      mix-blend-mode: screen;
+      opacity: 0.25;
+    }
+  </style>
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <radialGradient id="cyan-glow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="purple-glow" cx="90%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Sleek Dark Background -->
+  <rect width="800" height="250" rx="16" class="bg" />
+  
+  <!-- Subtle Ambient Glows -->
+  <circle cx="700" cy="50" r="250" fill="url(#cyan-glow)" class="glow-cyan" />
+  <circle cx="750" cy="200" r="250" fill="url(#purple-glow)" class="glow-purple" />
+  
+  <!-- Elegant Micro-grid Accents (Product/Tech Feel) -->
+  <path d="M 550 50 L 750 50 M 650 50 L 650 200 M 550 150 L 750 150" stroke="#334155" stroke-opacity="0.2" stroke-width="1.5" />
+  <circle cx="650" cy="50" r="4" fill="#22d3ee" />
+  <circle cx="650" cy="150" r="4" fill="#a78bfa" />
+  
+  <!-- Typography -->
+  <text x="60" y="105" class="title">VARUN SHARMA</text>
+  <text x="60" y="145" class="subtitle">Associate Product Manager</text>
+  <line x1="60" y1="175" x2="380" y2="175" stroke="#334155" stroke-width="1.5" />
+  <text x="60" y="202" class="tags">PRODUCT STRATEGY • UX DESIGN • DEVOPS</text>
+</svg>

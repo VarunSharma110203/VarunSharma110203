@@ -1,6 +1,6 @@
 <!-- Header Banner -->
 <p align="center">
-  <img src="github_banner_devops.png" alt="Varun Sharma Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
+  <img src="profile_banner.svg" alt="Varun Sharma Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
 </p>
 
 # <p align="center">👋 Hi, I'm Varun Sharma</p>
